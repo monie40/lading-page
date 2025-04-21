@@ -1,0 +1,150 @@
+body {
+    font-family: Roboto, Courier, monospace;
+}
+
+.section-one {
+    background-color: #1F2937;
+    padding-top:20px;
+    padding-bottom: 60px;
+}
+
+.header {
+    display:flex;
+    justify-content:space-around;
+}
+
+.content {
+    display:flex;
+    justify-content:space-around;
+}
+
+.middle {
+    width: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    padding:5px 15px;
+    color: #E5E7EB;
+    font-weight: 900;
+    border-radius:5px;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration:none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+img {
+    border-radius:10px;
+}
+
+.card {
+    border: 4px #3882F6 solid;
+    padding:16px;
+    width:250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.info {
+    width:300px;
+}
+ h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight:900;
+    color:#1F2937;
+ }
+
+ .text {
+    text-align: center;
+   
+ }
+ .second-content {
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+ }
+
+ .section-two {
+    padding-top:20px;
+    padding-bottom: 60px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote-section {
+    width:50%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style:light italic;
+    color: #1F2937;
+}
+
+h4 {
+    text-align: end;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:20px;
+}
+
+.block-section {
+    background-color: #3882F6;;
+    width:30%;
+    padding:40px 80px;
+    border-radius:5px;
+    display:flex;
+    color: #F9FAF8;
+    justify-content: center;
+    
+}
+
+.call-text {
+    font-size: 20px;
+    font-weight:900;
+    
+}
+
+.call-side {
+    flex:2;
+}
+.button-side {
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.button-style {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
